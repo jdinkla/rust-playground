@@ -7,6 +7,7 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand = "0.8.3"
 
 [[bin]]
 name = "structs"
@@ -15,4 +16,12 @@ path = "src/structs.rs"
 [[bin]]
 name = "main"
 path = "src/main.rs"
+
+[[bin]]
+name = "test1"
+path = "src/test1.rs"
+
+[[bin]]
+name = "guess"
+path = "src/guess.rs"
 
